@@ -70,6 +70,7 @@ module Selenium
             new({
               browser_name: 'chrome',
               javascript_enabled: true,
+              takes_screenshot: true,
               css_selectors_enabled: true
             }.merge(opts))
           end
